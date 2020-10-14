@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ukázka template</title>
+</head>
+<body>
+   
+
+    <h2>Výpis PHP proměnné </h2>
+    <p>{$items2}</p>
+
+    <h2>Výpis pole hodnot</h2>
+    {foreach $items1 as $item}
+        <p>{$item}</p>
+    {/foreach}
+
+    <h2>Výpis pole hodnot pomocí n:atribut;</h2>
+    <p n:foreach="$items1 as $item">{$item}</p>
+
+    <h2>Použití podmínek - výpis hodnoty "two" barevně</h2>
+    {foreach $items1 as $item}
+        {if $item=="two"}
+            <p style="color:red">{$item}</p>
+        {else}
+            <p>{$item}</p>
+        {/if}
+    {/foreach}
+
+    
+    
+</body>
+</html>
+
+

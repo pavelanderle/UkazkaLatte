@@ -8,6 +8,9 @@
     $params = [
         'items1' => ['one', 'two', 'three'],
         'items2' => 'apple',
+        'ovoce' => 'jablko',
+        'rezervace' => true,
+        '$objednavka' => ['sluchátka','procesor','monitor','case','kamera','klavesnice'],
     ];
     
     // kresli na výstup

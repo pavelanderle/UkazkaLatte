@@ -9,24 +9,16 @@
    
 
     <h2>Výpis PHP proměnné </h2>
-    <p>{$items2}</p>
+    
 
     <h2>Výpis pole hodnot</h2>
-    {foreach $items1 as $item}
-        <p>{$item}</p>
-    {/foreach}
+    
 
     <h2>Výpis pole hodnot pomocí n:atribut;</h2>
-    <p n:foreach="$items1 as $item">{$item}</p>
+    
 
     <h2>Použití podmínek - výpis hodnoty "two" barevně</h2>
-    {foreach $items1 as $item}
-        {if $item=="two"}
-            <p style="color:red">{$item}</p>
-        {else}
-            <p>{$item}</p>
-        {/if}
-    {/foreach}
+   
 
     <h2>Podmínky</h2>
     <p>Úkol: Vypište dle hodnoty proměnné $ovoce alkoholický nápoj, který se z něj vyrábí (jablko,švestka,hruška)</p>

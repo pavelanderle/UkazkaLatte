@@ -1,4 +1,4 @@
-[Latte](https://latte.nette.org): amazing template engine for PHP
+[VOŠ a SPŠE Plzeň](https://www.spseplzen.cz): Žijeme technikou
 ================================================================
 
 [![Downloads this Month](https://img.shields.io/packagist/dm/latte/latte.svg)](https://packagist.org/packages/latte/latte)

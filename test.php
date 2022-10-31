@@ -1,6 +1,6 @@
 <?php 
 
-    require_once("src/latte.php");
+    require_once("vendor/autoload.php");
     $latte = new Latte\Engine;
 
     $latte->setTempDirectory('temp');
@@ -10,7 +10,7 @@
         'items2' => 'apple',
         'ovoce' => 'jablko',
         'rezervace' => true,
-        '$objednavka' => ['sluchátka','procesor','monitor','case','kamera','klavesnice'],
+        'objednavka' => ['sluchátka','procesor','monitor','case','kamera','klavesnice'],
     ];
     
     // kresli na výstup
